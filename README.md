@@ -1,3 +1,9 @@
+# This is an example application which uses [Neogma](https://github.com/themetalfleece/neogma), a Neo4j OGM for Node.js build with TypeScript
+
+It's a simple application which demonstrates Neogma by creating Users, Movies, and relationships between them.
+
+It then queries the database to find common liked movies between users, and the most liked movie.
+
 ## Install
 
 1. Install [node.js](https://nodejs.org/en/download/), [yarn](https://classic.yarnpkg.com/en/docs/install/), [neo4j](https://neo4j.com/download/).
