@@ -6,9 +6,14 @@
 
 ## Build & Run
 
-1. At the top of `src/app.ts` provide your own connection details.
+1. Copy the contents of the `.env.example` file to a `.env` next to it, and edit it with your values.
 2. Run `yarn build` to build the files.
 3. Run `yarn start` to start the application.
 
 -   You can run `yarn dev` to combine the 2 steps above, while listening to changes and restarting automatically.
     -   You need to run `yarn global add ts-node nodemon` once for this to run.
+
+## Populate data
+
+1. Run `yarn build` to build the files.
+2. Run `yarn populate`
