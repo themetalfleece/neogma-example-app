@@ -13,7 +13,8 @@
         "format": "prettier --loglevel silent --write src/**/*.ts"
     },
     "dependencies": {
-        "dotenv": "^8.2.0"
+        "dotenv": "^8.2.0",
+        "neogma": "^1.6.1"
     },
     "devDependencies": {
         "@types/dotenv": "^8.2.0",
